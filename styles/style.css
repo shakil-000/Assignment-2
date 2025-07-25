@@ -311,8 +311,22 @@
   border-radius: 5px;
   
 }
-
-
+.logos{
+  display: flex;
+  gap: 10px;
+}
+.first-column-link, .second-column-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-section{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-info{
+  width: 400px;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -467,15 +481,21 @@
   font-size: 20px;
 }
 .Form input[type="email"]{
-  width: 0px;
+  width: 300px;
 }
 .Form button{
-  width: px;
+  width: 50px;
 }
 .join{
   height: 300px; 
   margin-left: 140px;
 }
+.footer-section{
+   flex-direction: column;
+   gap: 20px;
+   margin-bottom: 50px;
+}
+
 }
 
 
