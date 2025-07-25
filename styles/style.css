@@ -398,6 +398,20 @@
  padding-right: 30px;
 }
 
+.beside{
+  width: 350px;
+  height: 185px;
+}
+.beside p{
+  font-size: 20px;
+}
+.beside a{
+  font-size: 16px;
+}
+.offer{
+  flex-direction: column;
+  
+}
 
 }
 
