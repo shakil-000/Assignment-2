@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.mobile-nav{
+   display: none;
+}
+.navbar{
+  /* max-width: 1140px; */
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 590px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 35px;
+  justify-content: space-around;
+}
+
+.nav-logo img{
+   width: 135px; 
+   
+}
+.nav-options{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.option{
+  color: #8987A1;
+}
+.bold-option{
+   color: #252432;
+   font-weight: bold;
+}
+.lt-bold-option{
+   font-weight: 400;
+}
+.add-to-cart img{
+   width: 40px;
+}
+.add-to-cart{
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 65px;
+}
+.orange-color{
+   color: #E95A08;
+}
+.paraghraph p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 500; */
+  font-style: normal; 
+  font-size: 22px;
+  color: #6e6767;
+}
+.banner-info{
+  width: 570px;
+}
+.banner-img img{
+  width: 570px;
+}
+.banner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 120px;
+}
+.plants-info{
+  text-align: center;
+}
+.Title{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+}
+.coloring{
+  color: #E95A08;
+}
+
+.plants{
+  margin-top: 120px;
+  
+}
+.cart{
+  width: 270px;
+}
+.scenerio img{
+  width: 270px;
+}
+.name{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.price{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal; 
+  font-size: 22px;
+}
+.name-price{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.button{
+  background-color: #E95A08;
+  color: white;
+  text-align: center;
+  width: 270px;
+}
+.plants-grid{
+  margin-top: 49px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* padding-left: 150px;
+  padding-right: 150px; */
+  padding: 0 auto;
+  margin-left: 70px;
+  gap: 20px;
+}
+.Plants-Lover{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+#badge { 
+  position: absolute;
+  top: -90px;
+  right: -120px;
+  width: 286px;
+  z-index: 2;
+}
+#badge img{
+  width: 100%;
+}
+#flower img{
+  width: 100%;
+  display: block;
+}
+.lover-images{
+  position: relative;
+  display: inline-block;
+}
+
+
+
+@media screen and (max-width: 576px) {
+   .mobile-nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 300px;
+     margin-top: 10px;
+     margin-left: 80px;
+     margin-right: 600px;
+     width: 100%;
+   } 
+  .time p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: 17px;
+  }
+  .device-logo img{
+     width: 20px;
+  }
+  .device-logo{
+    display: flex;
+    gap: 5px;
+  }
+  .nav-logo img{
+    width: 80px;
+  }
+ .navbar{
+  margin-left: 90px;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 200px;
+  width: 100%;
+ }
+ .bold-option,.option{
+  display: none;
+ }
+  
+ .banner{
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;  
+   margin-top: 28px;  
+   width: 100%;
+   
+  
+ }
+ .banner-img img{
+  width: 100%;
+  height: auto;
+  /* padding-right: 20px;  */
+  /* padding-left: 100px; */
+ }
+ .banner-info{
+  width: 100%;
+  margin-top: 40px; 
+  margin-right: 190px;
+ }
+ .title{
+  font-size: 24px;
+  text-align: left;
+ }
+ .paraghraph p{
+  font-size: 14px;
+  text-align: left;
+  margin-right: 10px;
+ }
+ 
+.Title{
+  font-size: 24px;
+  text-align: center;
+}
+.Subtitle{
+  font-size: 14px;
+  text-align: center;
+}
+.plants-info{
+  gap: 16px;     
+  padding-left: 100px;    
+  /* margin-left: 60px; */    
+}
+.plants-grid{
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 100px;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-bottom: 400px;
+}
+.plants{
+  width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
